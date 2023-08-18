@@ -1,19 +1,38 @@
+[Added Associations]
+application/epub+zip=org.gnome.Evince.desktop;FBReader.desktop;
+application/octet-stream=nvim.desktop;
+application/pdf=okularApplication_pdf.desktop;org.gnome.Evince.desktop;
+application/x-cd-image=gnome-disk-image-mounter.desktop;
+application/x-desktop=vim.desktop;
+application/x-remmina=org.remmina.Remmina.desktop;
+application/x-wine-extension-ini=nvim.desktop;
+application/xml=org.gnome.gedit.desktop;nvim.desktop;
+audio/flac=vlc.desktop;
+audio/mpeg=vlc.desktop;
+image/jpeg=darktable.desktop;org.gnome.eog.desktop;
+image/png=org.gnome.eog.desktop;
+inode/directory=vlc.desktop;
+text/csv=vim.desktop;nvim.desktop;
+text/markdown=nvim.desktop;
+text/plain=nvim.desktop;
+video/mp4=vlc.desktop;
+video/x-matroska=vlc.desktop;
+x-scheme-handler/rdp=org.remmina.Remmina.desktop;
+x-scheme-handler/remmina=org.remmina.Remmina.desktop;
+x-scheme-handler/spice=org.remmina.Remmina.desktop;
+x-scheme-handler/vnc=org.remmina.Remmina.desktop;
+
 [Default Applications]
-
-# xdg-open will use these settings to determine how to open filetypes.
-# These .desktop entries can also be seen and changed in ~/.local/share/applications/
-
-text/x-shellscript=text.desktop;
-x-scheme-handler/magnet=torrent.desktop;
-application/x-bittorrent=torrent.desktop;
-x-scheme-handler/mailto=mail.desktop;
-text/plain=text.desktop;
-application/postscript=pdf.desktop;
-application/pdf=pdf.desktop;
-image/png=img.desktop;
-image/jpeg=img.desktop;
-image/gif=img.desktop;
-application/rss+xml=rss.desktop
-video/x-matroska=video.desktop
-x-scheme-handler/lbry=lbry.desktop
-inode/directory=file.desktop
+application/epub+zip=FBReader.desktop
+application/pdf=org.gnome.Evince.desktop
+application/x-remmina=org.remmina.Remmina.desktop
+application/x-wine-extension-ini=nvim.desktop
+application/xml=nvim.desktop
+audio/flac=vlc.desktop
+image/jpeg=org.gnome.eog.desktop
+text/csv=nvim.desktop
+video/x-matroska=vlc.desktop
+x-scheme-handler/rdp=org.remmina.Remmina.desktop
+x-scheme-handler/remmina=org.remmina.Remmina.desktop
+x-scheme-handler/spice=org.remmina.Remmina.desktop
+x-scheme-handler/vnc=org.remmina.Remmina.desktop

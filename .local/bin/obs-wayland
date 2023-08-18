@@ -8,4 +8,3 @@ if [ -f /usr/bin/obs ] ; then
 else
   flatpak run com.obsproject.Studio
 fi
-

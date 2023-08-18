@@ -20,4 +20,4 @@ cd $PROJECT_NAME
 yarn install
 
 # Set up the yarn SDK for lsp
-yarn dlx @yarnpkg/sdks vscode
+yarn dlx @yarnpkg/sdks vscodium
