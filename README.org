@@ -1,3 +1,7 @@
+* Note: Fork - Base for personal hyprland experiments
+- Forked from https://github.com/sadikeey/dotfiles/. Contains some changes to better fit my needs. For best experience use original project!
+
+
 #+title: My Arch Linux Dotfiles
 #+author: Sadik Saifi
 #+description: This is my arch linux dotfiles repo.
